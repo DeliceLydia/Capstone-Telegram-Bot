@@ -11,8 +11,4 @@ class Bot
 
     private
 
-    def update
-        
-    end
-
 end
