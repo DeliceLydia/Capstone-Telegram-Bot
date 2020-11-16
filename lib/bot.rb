@@ -25,12 +25,13 @@ class Bot
           bot.api.send_message(chat_id: message.chat.id, text: "#{value["text"]}", date: message.date)
         
         when '/help'
-          reply.text = "
+          bot.api.send_message(chat_id: message.chat.id, text: 
+          "
             /start: Start a new bot
             /motivate: Gives you different motivational quotes
             /learn: Teaches you a new french word
             /stop: End the bot
-          "
+          ")
         
         else bot.api.send_message(chat_id: message.chat.id, text: "Invalid entry, #{message.from.first_name}, you need to use  /start,  /stop , /motivate or /joke")
         end
