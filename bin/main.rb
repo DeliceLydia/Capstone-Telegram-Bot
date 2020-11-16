@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
 
-require_relative '../lib/bot.rb'
-require_relative '../lib/motive.rb'
-require_relative '../lib/laugh.rb'
+require_relative '../lib/bot'
+require_relative '../lib/motive'
+require_relative '../lib/laugh'
 
 puts 'Bots is running'
 

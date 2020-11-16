@@ -1,6 +1,6 @@
 require 'net/http'
 require 'json'
-require_relative 'bot.rb'
+require_relative 'bot'
 
 class Laughter
   attr_reader :values
@@ -13,7 +13,6 @@ class Laughter
     url = 'https://api.yomomma.info'
     uri = URI(url)
     response = Net::HTTP.get(uri)
-    response = JSON.parse(response)
-    response
+    JSON.parse(response)
   end
 end
