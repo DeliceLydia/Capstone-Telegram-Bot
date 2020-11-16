@@ -3,7 +3,7 @@ require 'net/http'
 require 'json'
 require_relative 'bot'
 
-class Motivate
+class Motivation
   attr_reader :values
 
   def initialize

@@ -34,12 +34,12 @@ class Bot
           bot.api.send_message(chat_id: message.chat.id, text: "Bye, #{message.from.first_name}", date: message.date)
 
         when '/motivate'
-          values = Motivate.new
+          values = Motivation.new
           value = values.select_random
           bot.api.send_message(chat_id: message.chat.id, text: (value['text']).to_s, date: message.date)
 
         when '/laughter'
-          values = Joke.new
+          values = Laughter.new
           value = values.make_the_request
           bot.api.send_message(chat_id: message.chat.id, text: (value['joke']).to_s, date: message.date)
 
@@ -65,14 +65,19 @@ class Bot
           ")
         else bot.api.send_message(chat_id: message.chat.id, text: "Invalid entry, #{message.from.first_name},
           you need to use
-          /start,
-          /stop ,
-          /motivate or /joke")
+          /start
+          /stop 
+          /motivate
+          /laughter
+          /movies
+          /parfium
+          /learn")
         end
       end
     end
   end
 end
+
 # rubocop:enable Metrics/AbcSize
 # rubocop:enable Metrics/CyclomaticComplexity
 # rubocop:enable Metrics/MethodLength
