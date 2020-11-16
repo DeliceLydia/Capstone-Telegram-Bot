@@ -6,7 +6,7 @@ class Laughter
   attr_reader :values
 
   def initialize
-    @values = @make_the_request
+    @values = make_the_request
   end
 
   def make_the_request
