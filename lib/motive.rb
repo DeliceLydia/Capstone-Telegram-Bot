@@ -4,7 +4,7 @@ require 'json'
 require_relative 'bot.rb'
 
 class Motivate
-    @values = nil
+    attr_reader :values
 
     def initialize
         @values = make_the_request
@@ -20,6 +20,6 @@ class Motivate
 
     def select_random
         @values = @values.sample
-        @values
+
     end
 end
