@@ -9,11 +9,15 @@ class Bot
         case message.text
 
         when "/start"
-          bot.api.send_message(chat_id: message.chat.id, text: "Hello, #{message.from.first_name} , welcome to motivation chat bot created by Delice Lydia, the chat bot is to keep you motivated and entertained. 
-                    Use /start to start the bot,  /stop to end the bot, /motivate to get a different motivational quote everytime you request for it or 
-                    /learn to learn a new french word")
+          bot.api.send_message(chat_id: message.chat.id, text: "Hello,
+           welcome to the telegram bot created by Delice Lydia, Kindly use: 
+                    /start to start the bot,  
+                    /stop to end the bot, 
+                    /motivate to get different motivational quote 
+                    /learn to learn a new french word 
+                    /help to get more info about the bot")
         when "/learn"
-          new_word = %w[comment,tu,vas?]
+          new_word = %w[lundi mardi mercredi jeudi vendredi samedi dimanche]
           bot.api.send_message(chat_id: message.chat.id, text: "#{new_word.sample.capitalize}!", date: message.date)
 
         when "/stop"
