@@ -1,6 +1,6 @@
 # Capstone-Telegram-Bot
 
-![Top Page Screenshot](./scrnshot.png)
+![Top Page Screenshot](./Screenshot.png)
 
 ## About the Project
 
