@@ -7,7 +7,7 @@ require_relative 'motive'
 
 class Bot
   def initialize
-    token = '1482463910:AAEhuRP9w5nbNq7-ia3nx9FlEdkqlbtWtQQ'
+    token = '1457197587:AAEtpa9IP8TEI0vGrvoHwbXriOktLTJiB24'
     Telegram::Bot::Client.run(token) do |bot|
       bot.listen do |message|
         case message.text
