@@ -7,7 +7,6 @@ require_relative 'motive'
 require 'dotenv'
 Dotenv.load('token.env')
 
-
 class Bot
   def initialize
     Telegram::Bot::Client.run(ENV['TOKEN']) do |bot|
@@ -68,7 +67,7 @@ class Bot
         else bot.api.send_message(chat_id: message.chat.id, text: "Invalid entry, #{message.from.first_name},
           you need to use
           /start
-          /stop 
+          /stop
           /motivate
           /laughter
           /movies
