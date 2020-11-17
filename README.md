@@ -10,7 +10,6 @@ joke, new movie to watch, learn a new french word etc.
 ## Built With
 
 * [Ruby](https://www.ruby-lang.org/en/)
-* VS Code
 * Telegram-Bot API
 * Type fit Quotes API
 * Yo mamma Jokes API
@@ -36,10 +35,19 @@ e.g. $ cd Desktop/Capstone-Telegram-Bot
 9. Create an account on Telegram
 10. Navigate to your Telegram account
 11. Create a new bot using @BotFather
-12. get the token and replace it with the given token
+12. Ask @BotFather your token and add it in your .env file
 13. Run `bin/main.rb` 
 14. Then run the commands in your bot
-15. Type commands like:
+
+## To Use Your Token
+
+* In your root directory create a .env file
+* Add variable Ex: token = 'add your token here'
+* run gem install dotenv
+* 
+
+## Commands
+
 * /start to start the bot
 * /motivate to get a motivational quote
 * /laughter to get a joke of the day

@@ -19,7 +19,7 @@ describe Motivation do
     end
 
     it 'returns false for a hash having two key/value pairs' do
-      expect(quote_of_the_day.select_random.length).not_to eql(1)
+      expect(quote_of_the_day.select_random.length).to_not eql(1)
     end
   end
 
@@ -31,7 +31,7 @@ describe Motivation do
     end
 
     it 'should not return an empty array' do
-      expect(request.make_the_request.length).not_to eql(0)
+      expect(request.make_the_request.length).to_not eql(0)
     end
   end
 end
@@ -42,7 +42,7 @@ describe Laughter do
     let(:request_joke) { joke_of_the_day.make_the_request }
 
     it 'should not return an empty array' do
-      expect(request_joke.length).not_to eql(0)
+      expect(request_joke.length).to_not eql(0)
     end
 
     it 'should return a hash if the request is right' do
