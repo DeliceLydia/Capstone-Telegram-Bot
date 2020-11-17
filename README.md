@@ -80,6 +80,10 @@ Feel free to check the [issues page](../../issues).
 
 Huge Thanks to [Atipugin](https://github.com/atipugin/telegram-bot-ruby) for the project inspirations
 
+## Loom Video
+
+[Loom-Video](https://www.loom.com/share/86d4229be9d543f897e871070c33e903)
+
 ## Show your support
 ​
 Give a ⭐️ if you like this project!
