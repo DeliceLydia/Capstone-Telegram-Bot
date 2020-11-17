@@ -45,7 +45,7 @@ e.g. $ cd Desktop/Capstone-Telegram-Bot
 * /laughter to get a joke of the day
 * /movies to get a new movie to watch
 * /learn to learn a new french word
-* /parfium to know a brand new parfium to watch
+* /parfium to know a brand new parfume to buy
 * /help to get more info about the bot
 * /stop to end the bot
 
