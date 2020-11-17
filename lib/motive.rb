@@ -13,8 +13,9 @@ class Motivation
   def select_random
     @values = @values.sample
   end
-  
+
   private
+
   def make_the_request
     url = 'https://type.fit/api/quotes'
     uri = URI(url)
