@@ -70,7 +70,7 @@ Feel free to check the [issues page](../../issues).
 
 ## Acknowledgments
 
-Shout out to [Atipugin](https://github.com/atipugin/telegram-bot-ruby) for the project inspirations
+Huge Thanks to [Atipugin](https://github.com/atipugin/telegram-bot-ruby) for the project inspirations
 
 ## Show your support
 ​
