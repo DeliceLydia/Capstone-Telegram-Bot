@@ -44,7 +44,7 @@ e.g. $ cd Desktop/Capstone-Telegram-Bot
 * In your root directory create a .env file
 * Add variable Ex: token = 'add your token here'
 * run gem install dotenv
-* 
+* You are good to go
 
 ## Commands
 
