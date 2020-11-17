@@ -4,11 +4,13 @@
 
 require 'telegram/bot'
 require_relative 'motive'
+require 'dotenv'
+Dotenv.load('token.env')
+
 
 class Bot
   def initialize
-    token = '1457197587:AAEtpa9IP8TEI0vGrvoHwbXriOktLTJiB24'
-    Telegram::Bot::Client.run(token) do |bot|
+    Telegram::Bot::Client.run(ENV['TOKEN']) do |bot|
       bot.listen do |message|
         case message.text
 
