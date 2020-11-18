@@ -1,4 +1,4 @@
-require 'telegram/bot'
+require 'telegram_bot'
 require 'net/http'
 require 'json'
 require_relative 'bot'
