@@ -1,16 +1,15 @@
 # rubocop:disable Metrics/MethodLength
-# rubocop:disable Metrics/CyclomaticComplexity
 
 require 'telegram_bot'
 require_relative 'motive'
 require 'dotenv'
-Dotenv.load('token.env')
+Dotenv.load('.env')
 
 class Bot
   attr_reader :bot, :get_updates
 
   def initialize
-    @bot = TelegramBot.new(ENV['TOKEN'])
+    @bot = TelegramBot.new(ENV['token'])
     @get_updates = update
   end
 
@@ -65,4 +64,3 @@ class Bot
 end
 
 # rubocop:enable Metrics/MethodLength
-# rubocop:enable Metrics/CyclomaticComplexity
