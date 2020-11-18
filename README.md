@@ -76,7 +76,7 @@ Feel free to check the [issues page](../../issues).
 
 ## Acknowledgments
 
-Huge Thanks to [Atipugin](https://github.com/atipugin/telegram-bot-ruby) for the project inspirations
+Shout out to [Atipugin](https://github.com/atipugin/telegram-bot-ruby) for the project inspirations
 
 ## Loom Video
 
