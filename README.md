@@ -1,11 +1,10 @@
 # Capstone-Telegram-Bot
 
-![Top Page Screenshot](./shot.png)
-
-## About the Project
-
 This project consist of building a Telegram Bot using Ruby, With this Bot you can get a daily motivation,
 joke, new movie to watch, learn a new french word etc.
+
+![Screenshot](./shot.png)
+
 
 ## Built With
 
