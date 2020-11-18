@@ -1,4 +1,5 @@
 # rubocop:disable Metrics/MethodLength
+# rubocop:disable Metrics/CyclomaticComplexity
 
 require 'telegram_bot'
 require_relative 'motive'
@@ -64,3 +65,4 @@ class Bot
 end
 
 # rubocop:enable Metrics/MethodLength
+# rubocop:enable Metrics/CyclomaticComplexity
